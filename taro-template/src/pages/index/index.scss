@@ -1,0 +1,100 @@
+page {
+    .border {
+        box-shadow:0 6rpx 6rpx 6rpx lightgray;
+        border-radius:5%;
+        margin-left: 15rpx;
+        margin-right: 15rpx;
+        margin-bottom: 25rpx;
+    }
+
+    .scrollview {
+        box-shadow:0 3rpx 5rpx 1rpx lightgray;
+        border-radius:5%;
+        
+        width:100%;
+        height: 360rpx;
+    }
+    .lm {
+        box-shadow:0 3rpx 5rpx 1rpx lightgray;
+        border-radius: 12rpx;
+        width:98%;
+        max-height: 300rpx;
+    }
+    
+    .Image{
+        border-radius:5%
+    }
+    /*.Image{
+        width:100%;
+        height: 100%;
+        position: absolute;
+        left:0px;
+        right:0px;
+    }*/
+        .child {
+        width: 100rpx;
+        height: 24rpx;  
+        position: absolute;
+        left: 50%;
+        top:  200rpx;
+        margin: auto;
+        text-align: center;
+        }  
+    .min {
+        box-shadow:0 3rpx 5rpx 1rpx lightgray;
+        border-radius:5%;
+        margin-left: 30rpx;
+        width: 80%;
+        height: 200rpx;
+    }
+
+    .small {
+        border-radius:5%;
+        width: 98%;
+        max-height: 150rpx;
+    }
+
+    .sm {
+        margin: auto;
+        width: 100%;
+        height: 10%;
+        font-size: 18rpx;
+        text-align: center;
+    }
+
+    .scrollview1 {
+        width: 100%;
+        height: 260rpx;
+    }
+    .large {
+        border-radius: 5%;
+        margin-right: 20rpx;
+        max-height: 260rpx;
+    }
+    .big {
+        box-shadow:0 3rpx 5rpx 1rpx lightgray;
+        border-radius:5%;
+        margin-left: 20rpx;
+        width: 100%;
+        height: 240rpx;
+        text-align: center;
+    }
+    .yq {
+        margin-left: 20rpx;
+        margin-top: 15rpx;
+    }
+
+
+    .mm{
+        width: 40rpx;
+        height: 80rpx;
+        margin-right: 100rpx;
+        left: 0;
+    }
+    .mm1{
+        height: 80rpx;
+        text-align: left;
+        left: 0;
+        margin-left: 20rpx;
+    }
+}
