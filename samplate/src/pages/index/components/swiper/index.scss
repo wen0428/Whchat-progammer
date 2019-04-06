@@ -1,0 +1,21 @@
+//@import '~taro-ui/dist/style/components/flex.scss';
+@import "~taro-ui/dist/style/index.scss";
+
+.swip {
+    .lm {
+        box-shadow:0 3rpx 5rpx 1rpx lightgray;
+        border-radius: 12rpx;
+        margin: 20rpx;
+        width:95%;
+        max-height: 260rpx;
+    }  
+    .child {
+        width: 100rpx;
+        height: 24rpx;  
+        position: absolute;
+        left: 50%;
+        top:  200rpx;
+        margin: auto;
+        text-align: center;   
+    }  
+}
