@@ -1,0 +1,14 @@
+@import '~taro-ui/dist/style/components/flex.scss';
+
+.watch {
+  width:670rpx;
+  margin: 0 auto;
+  margin-top:22rpx;
+
+  .read-view {
+    font-size:36px;
+    width:670rpx;
+    margin-left: 40rpx;
+    margin-right: 40rpx;
+  }
+}

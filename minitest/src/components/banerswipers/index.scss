@@ -1,0 +1,35 @@
+.swip {
+  height: 480rpx;
+
+  .test-h {
+    height: 480rpx;
+    white-space: nowrap;
+
+    .note-backend {
+      display: inline-block;
+      border-radius: 20rpx;
+      background:white;
+      margin-left: 40rpx;
+      width: 630rpx;
+      height: 460rpx;
+      
+      .notes-image {
+        margin-right: 50rpx;
+        border-radius: 20rpx;
+        width: 630rpx;
+        max-height: 370rpx;
+      }
+      
+      .notes-label {
+        font-size: 40rpx;
+        height: 44rpx;
+        bottom: 0%;
+        
+        .note-label{
+          margin-left: 26rpx;
+          bottom: 20rpx;
+        }
+      }
+    }
+  }
+}

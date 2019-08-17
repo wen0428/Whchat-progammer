@@ -1,0 +1,35 @@
+.index {
+  background: linear-gradient(#DDDDDD,FFFFFF);
+  background:#F3F2F2;
+  overflow: hidden !important;//隐藏y方向滚动条
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+  .memmer {
+    width: 750rpx;
+    overflow-y: hidden;
+  }
+  ::-webkit-scrollbar {
+    /*隐藏滚轮*/
+    width: 0;
+    height: 0;
+    display: none;
+    color: transparent;
+  }
+    
+  ::-webkit-scrollbar-track-piece {
+    /*隐藏滚轮*/
+    width: 0;
+    height: 0;
+    display: none;
+    color: transparent;
+  }
+    
+  .memmer::-webkit-scrollbar-track-piece {
+    /*隐藏滚轮*/
+    width: 0;
+    height: 0;
+    color: transparent;
+    display: none;
+  }
+}
