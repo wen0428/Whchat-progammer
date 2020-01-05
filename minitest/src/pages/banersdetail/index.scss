@@ -1,0 +1,65 @@
+.index {
+  background: #F3F2F2;
+
+  .bookbackend {
+    height: 660rpx;
+
+    .book {
+      width: 750rpx;
+      height: 364rpx;
+    }
+
+    .donor {
+      margin-top: 118rpx;
+      margin-left: 470rpx;
+      margin-right: 50rpx;
+      width: 280rpx;
+      color: gray;
+    }
+  }
+
+  .authorbackend {
+    width: 86%;
+    margin-left: 50rpx;
+    margin-right: 50rpx;
+    margin-top: 54rpx;
+
+    .author {
+      margin-bottom: 28rpx;
+      color: #1E90FF;
+    }
+  }
+
+  .contentbackend {
+    width: 86%;
+    margin-left: 50rpx;
+    margin-right: 50rpx;
+    margin-top: 54rpx;
+
+    .author {
+      margin-bottom: 27rpx;
+      color: #1E90FF;
+    }
+
+    .landscape{
+      text-indent: 2em;
+      //color: #1E90FF;
+    }
+  }
+
+  .notebackend {
+    margin-top: 54rpx;
+
+    .author {
+      margin-bottom: 28rpx;
+      color: #1E90FF;
+    }
+
+    .noteword {
+      border-radius: 20rpx;
+      font-size: 40px;
+      text-align: center;
+      width: 670rpx;
+    }
+  }
+}

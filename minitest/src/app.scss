@@ -1,0 +1,24 @@
+@import "~taro-ui/dist/style/index.scss";
+
+.index {
+  overflow: hidden !important;
+
+  .main {
+    overflow-y: hidden !important;
+    
+    .main::-webkit-scrollbar{ 
+      width: 0; 
+      height: 0;
+      display: none; 
+      color: transparent;
+    }
+    background:pink;
+  }
+
+  .main::-webkit-scrollbar { 
+    width: 0; 
+    height: 0;
+    color: transparent; 
+    display: none;
+  }
+}

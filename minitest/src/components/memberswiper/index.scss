@@ -1,0 +1,44 @@
+.swip {
+	height: 360rpx;
+
+	.test-h {
+		height: 360rpx;
+
+		.top {
+			
+			.top-backend {
+				height: 360rpx;
+
+				.top-image {
+					border-radius: 20rpx;
+					margin-top: 0;
+					margin-left: 40rpx;
+					margin-right: 40rpx;
+					width: 670rpx;
+					height: 360rpx;
+
+					.words {
+						border-radius: 0 0 20rpx 20rpx;
+						width: 670rpx;
+						margin-left: 18rpx;
+						height: 60rpx;
+						background: rgb(228, 225, 225);
+						opacity: 0.5;
+						white-space: nowrap;
+						text-overflow: ellipsis;
+						overflow: hidden;
+						position: absolute;
+						left: 3%;
+						bottom: 0rpx;
+						color:black;
+						font-size: 30rpx;
+						
+						.top-word {
+							margin-left: 26rpx;
+						}
+					}
+				}
+			}
+		}
+	}
+}
