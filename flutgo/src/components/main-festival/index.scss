@@ -1,0 +1,32 @@
+.banner {
+  .back {
+    margin-top: 30rpx;
+    height: 250rpx;
+
+    .image {
+      width: 750rpx;
+      height: 250rpx;
+    }
+
+    .textback {
+      position: relative;
+      top: -200rpx;
+      margin-left: 40rpx;
+    }
+
+    .month {
+      color: #ffffff;
+      font-size: 40rpx;
+    }
+
+    .title {
+      color: #ffffff;
+      font-size: 30rpx;
+    }
+
+    .titleinfo {
+      color: #ffffff;
+      font-size: 24rpx;
+    }
+  }
+}

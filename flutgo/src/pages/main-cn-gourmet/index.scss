@@ -1,0 +1,74 @@
+.index {
+  .indexback {
+    background-color: #f3f2f2;
+
+    .back {
+      background-color: #ffffff;
+      margin: 30rpx auto;
+      width: 660rpx;
+      height: 50%;
+      padding-bottom: 30rpx;
+
+      .backs {
+        position: relative;
+        top: 30rpx;
+        bottom: 30rpx;
+        height: 90%;
+        margin-bottom: 30rpx;
+
+        .use {
+          margin: 0 auto;
+          width: 60rpx;
+          position: relative;
+          top: 16rpx;
+        }
+
+        .nameback {
+          .name {
+            font-size: 30rpx;
+          }
+      
+          .nameinfo {
+            display: block;
+            font-size: 24rpx;
+            color: #e4d9d9;
+          }
+        }
+  
+        .icon {
+          margin-left: 80rpx;
+        }
+    
+        .telinfo {
+          margin-left: 158rpx;        
+          width: 320rpx;
+  
+          .telname {
+            font-size: 24rpx;
+            color: #e4d9d9;
+          }
+    
+          .tel {
+            display: block;
+            font-size: 24rpx;
+          }
+        }
+  
+        .iconer {
+          background-color: pink;
+          margin-left: 240rpx;
+          margin-top: 16rpx;
+        }
+        
+        hidden {
+          display: none;
+        }
+
+        .line {
+          margin-left: 158rpx;
+          width: 470rpx;
+        }
+      }
+    }
+  }
+}

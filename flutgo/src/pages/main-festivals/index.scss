@@ -1,0 +1,113 @@
+@import "~taro-ui/dist/style/components/flex.scss";
+
+.banner {
+  .festivaltitleback {
+    background-color: #ffffff;
+  }
+
+  .festivaltitle {
+    margin-left: 48rpx;
+    width: 700rpx;
+    z-index: 6;
+  }
+
+  .titles {
+    font-size: 40rpx;
+  }
+
+  .calendar {
+    margin-left: 30rpx;
+  }
+
+  /* 修改列数 5行 */
+  .ellipsis {
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    text-overflow: ellipsis;
+    overflow:hidden;
+    -webkit-line-clamp: 5;
+  }
+  /* 展示全部 */
+  .unellipsis {
+  display: -webkit-box;
+  -webkit-box-orient:vertical;
+  text-overflow: ellipsis;
+  overflow:hidden;
+  -webkit-line-clamp: 0;
+  }
+
+  .showhidden {
+    width: 100rpx;
+    margin: 70rpx auto;
+    color: #888888; 
+    font-size: 20rpx;
+  }
+
+  .rowtitleback {
+    background-color: #ffffff;
+    width: 750rpx;
+    position: fixed;
+    z-index: 10;
+  }
+
+  .modal-box{
+    position:fixed;
+    width:100%;
+    height:100%;
+    top: 80px;
+    background:rgba(0,0,0,0.4);
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  .unbox {
+    display: none;
+  }
+
+  .rowback {
+    margin: 20rpx auto;
+    width: 710rpx;
+
+    .icon {
+      background-color: #f3f2f2;
+      width: 130rpx;
+      margin: 0 auto;
+      margin-top: 30rpx;
+  
+      .textbacks {
+        text-align: center;
+      }
+    }
+  }
+
+  .nav {
+    margin-top: 30rpx;
+
+    .back {
+      margin-top: 30rpx;
+      margin: 0 auto;
+      height: 490rpx;
+      width: 660rpx;
+  
+      .image {
+        height: 490rpx;
+      }
+  
+      .textback {
+        position: relative;
+        top: -120rpx;
+        margin-left: 40rpx;
+
+        .title {
+          color: #ffffff;
+          font-size: 30rpx;
+        }
+    
+        .titleinfo {
+          color: #ffffff;
+          font-size: 24rpx;
+        }
+      }
+    }
+  }
+}

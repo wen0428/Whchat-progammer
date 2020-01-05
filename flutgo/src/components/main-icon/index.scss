@@ -1,0 +1,182 @@
+@import "~taro-ui/dist/style/components/flex.scss";
+
+.index{
+  .wavesum {
+    max-width: 750rpx;
+    position: relative;
+    top: -30rpx;
+  }
+
+  .wavezero {
+    width: 66rpx;
+    height: 26rpx;
+    background-color: #ffffff;
+    border-radius: 60%/100% 100% 0 0;
+    border-top: 2rpx solid #ffffff;
+  }
+
+  .wavebottom {
+    position: relative;
+    left: 64rpx;
+    top: -20rpx;
+    //引起宽度变化的
+    // .waveone {
+    //   max-width: 66rpx;
+    //   height: 26rpx;
+    //   border-radius: 0% 0% 60% 60%/0% 0% 100% 100%;
+    //   border-bottom: 2rpx solid #ffffff;
+    // }
+  }
+
+  .sum{
+    margin-top: 80rpx;
+
+    .test {
+      margin-left: 60rpx;
+      width: 60rpx;
+    }
+
+    .fenxiang {
+      margin-left: 30rpx;
+      text-align: center;
+    }
+    .modal-box{
+      z-index: 999;
+      position:fixed;
+      width:100%;
+      height:100%;
+      top:0px;
+      background:rgba(0,0,0,0.4);
+      overflow: hidden;
+      }
+
+    .swip {
+      top: 0px; 
+      left: 0px; 
+      width: 100%; 
+      height: 100%; 
+      overflow: hidden; 
+      position: fixed; 
+      z-index: 0; 
+    }
+     
+    .modal-body{
+      position:relative;
+      }
+     
+    .modal-content{
+      /* width: 60%; */
+      margin:0 10% 0 30%;
+      overflow: hidden;
+      border-radius: 10rpx;
+      }
+     
+    .modal-content{
+      width: 80%;
+      height:230px; 
+      margin:450rpx auto;
+    }
+
+    .knowBtn {
+      background-color: #ffffff;
+      font-size: 36rpx;
+      height: 100%;
+
+      .SOS {
+        position: relative;
+        top: 8rpx;
+        margin: 0 auto;
+        width: 80%;
+        height: 44%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 8rpx;
+      }
+  
+      .help {
+        position: relative;
+        top: 8rpx;
+        margin: 0 auto;
+        width: 80%;
+        height: 46%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 8rpx;
+      }
+    }
+
+    .modal-content .fenxiang{
+      width: 100%;
+      height: 40%;
+    }
+
+    .position {
+      position: relative;
+      top: 0rpx;
+      width: 500rpx;
+
+      // .wave {
+      //   width: 750rpx;
+      //   height: 30px;
+      //   background-color: #f3f2f2;
+      //   top: -80px;
+      //   position: relative;
+        
+      //   &::before {
+      //     content: '';
+      //     position: absolute;
+      //     height: 60px;
+      //     width: 100%;
+      //     top: -30px;
+      //     background: radial-gradient(30px circle at 30px 30px, rgba(255, 255, 255, 1) 30px, transparent 0%) repeat-x, radial-gradient(30px circle at 90px 30px, #f3f2f2 30px, transparent);
+      //     background-size: 120px 60px;
+      //   }
+      // }
+    }
+
+    .at{
+      margin-bottom: 30rpx;
+      width: 98%;
+    }
+
+    .nav {
+      margin: 0 auto;
+      width: 150rpx;
+      height: 112rpx;
+    }
+
+    .icons {
+      display: flex;
+      justify-content: center;
+    }
+
+    .name {
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      width: 150rpx;
+    }
+  }
+
+  .sign-setting-border{
+    margin-left: 2%;
+    width:22%;
+    float: left;
+    height: 100px;
+    line-height: 30px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: #999999;
+    font-size: 14px;
+    text-align: center;
+    font-family: -apple-system;
+    margin-bottom:15px;
+    border:1px solid #DBDBDB;
+     
+  }
+  .selected{
+      background-color: #FFA404;
+      color: rgba(255, 255, 255, 1);
+      border:1px solid #FFA404;
+  }
+}

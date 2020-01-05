@@ -1,0 +1,67 @@
+.index{
+  .blueout{
+    border-radius: 20rpx;
+    background-color: #42c99c;
+    margin: 0 auto;
+    position: relative;
+    top: 200rpx;
+    width: 150rpx;
+    height: 150rpx;
+
+    .whiteout{
+      border-radius: 0 0 10rpx 10rpx;
+      background-color: #ffffff;
+      margin: auto auto;
+      position: relative;
+      top: 30rpx;
+      width: 90rpx;
+      height: 90rpx;
+
+      .bluein{
+        background-color: #42c99c;
+        margin: auto;
+        position: relative;
+        top: 8rpx;
+        width: 76rpx;
+        height: 76rpx;
+
+        .whitein{
+          position: relative;
+          margin-left: 18rpx;
+          color: #ffffff;
+          font-size: 60px;
+        }
+      }
+    }
+  }
+  .space{
+    margin: 0 auto;
+    width: 280rpx;
+    position: relative;
+    top: 250rpx;
+    .place{
+      margin-left: 30rpx;
+      font-size: 30px;
+    }
+    .placeone{
+      position: relative;
+      left: 80rpx;
+      font-size: 30px;
+    }
+  }
+
+  .spacetwo{
+    white-space:pre-line;
+    width: 280rpx;
+    position: fixed;
+    left: 36%;
+    bottom: 50rpx;
+
+    .placetwo{
+      font-size: 20px;
+    }
+    .placetwo{
+      font-size: 20px;
+    }
+  }
+}

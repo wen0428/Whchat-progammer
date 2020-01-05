@@ -1,0 +1,30 @@
+.index {
+  margin: 0 auto;
+  max-width: 640rpx;
+
+  .master {
+    font-size: 44rpx;
+  }
+
+  .masterinfo {
+    font-size: 26rpx;
+  }
+
+  .titleintroduce {
+    .numbertitleinfo {
+      font-size: 30rpx;
+      width: 640rpx;
+    }
+    .numtitleurl {
+      font-size: 30rpx;
+      width: 640rpx;
+    }
+    .imageurl {
+      font-size: 30rpx;
+      max-width: 640rpx;
+    }
+    .imageurlone {
+      max-width: 640rpx;
+    }
+  }
+}

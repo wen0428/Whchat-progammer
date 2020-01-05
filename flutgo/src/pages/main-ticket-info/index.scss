@@ -1,0 +1,114 @@
+.index {
+  .title {
+    position: relative;
+    top: 50rpx;
+    margin: 0 auto;
+    width: 660rpx;
+
+    .textback {
+      white-space: pre-line;
+      background-color: #f5e8d9;
+      .text {
+        font-size: 24rpx;
+        color: #f19710;
+      }
+    }
+
+    .contentback {
+      background-color: #f3f2f2;
+      margin-top: 30rpx;
+      margin-bottom: 20rpx;
+
+      .info {
+        margin: 0 auto;
+        width: 440rpx;
+
+        .incoinfo {
+          font-size: 30rpx;
+        }
+
+        .titleinfo {
+          font-size: 24rpx;
+        }
+      }
+
+      .price {
+        font-size: 50rpx;
+      }
+
+      .bottoms {
+        border-radius: 0rpx 0rpx 10rpx 10rpx;
+        position: relative;
+        top: 0rpx;
+        width: 660rpx;
+        height: 20rpx;
+      }
+
+      .bottom {
+        position: relative;
+        height: 150rpx;
+      }
+
+      .sign-setting-border{
+        margin-left: 2%;
+        width:22%;
+        float: left;
+        height: 30px;
+        line-height: 30px;
+        border-radius: 20px;
+        background-color: #ffffff;
+        color: #999999;
+        font-size: 14px;
+        text-align: center;
+        font-family: -apple-system;
+        margin-bottom:15px;
+        border:1px solid #DBDBDB;
+         
+      }
+    }
+  }
+
+  .unbuyback {
+    background-color: #d3d3d3;
+    position: fixed;
+    bottom: 0rpx;
+    width: 750rpx;
+    height: 80rpx;
+  }
+
+  .buyback {
+    background-color: #7fffd4;
+    position: fixed;
+    bottom: 0rpx;
+    width: 750rpx;
+    height: 80rpx;
+  }
+
+  .buy {
+    color: #ffffff;
+    position: relative;
+    left: 50%;
+    top: 20%;
+    font-size: 30rpx;
+  }
+
+  .titleone {
+    .improveback {
+      white-space: pre-line;
+      background-color: #f5e8d9;
+  
+      .improve {
+        margin-left: 30rpx;
+        font-size: 22rpx;
+        color: #f19710;
+      }
+    }
+    
+    .mapback {
+      margin: 0 auto;
+      width: 600rpx;
+      position: relative;
+      top: 30rpx;
+    }
+  }
+}

@@ -1,0 +1,161 @@
+.index {
+  .translation {
+    background-color: #f3f2f2;
+    min-height: 1356rpx;
+
+    .text {
+      background-color: #ffffff;
+      height: 450rpx;
+
+      .content{
+        border:1px black solid;
+        margin: 100px;
+        font-size: 10pt;
+        padding: 10px;
+      }
+
+      .contents {
+        word-wrap:break-word; 
+        word-break:break-all;
+        border:1px black solid;
+        width: 670rpx;
+        margin: 0 auto;
+        font-size: 10pt;
+        padding: 10px;
+        color: #0000ff;
+        margin-top: 110rpx;
+      }
+      
+      Textarea{
+        margin: auto;
+        width:100%;
+        height: 3em; 
+        border: none;
+        margin-top:5px;
+        padding: 3px;
+      }
+
+      Textarea::after{
+        display: none;
+      }
+
+      .cnen {
+        margin: 30rpx auto;
+        width: 400rpx;
+        .cn {
+          display: flex;
+          justify-content: center;
+          margin-top: 8rpx;
+          font-size: 32rpx;
+        }
+    
+        .guideline {
+          border-radius: 50rpx;
+          background-color: #f3f2f2;
+          width: 100rpx;
+          height: 60rpx;
+
+          .guidelineone {
+            display: flex;
+            justify-content: center;
+            max-height: 10rpx;
+          }
+    
+          .guidelinetwo {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            max-height: 10rpx;
+          }
+        }
+    
+        .en {
+          margin-top: 8rpx;
+          font-size: 32rpx;
+        }
+      }
+
+      .divider {
+        margin: 0 auto;
+        width: 700rpx;
+      }
+
+      .contentback {
+        background-color: #ffffff;
+        border: 1px #ffffff solid;
+
+        .textareainfo {
+          border: none;
+        }
+
+        .fix {
+          margin: 20rpx auto;
+          width: 450rpx;
+      
+          .fixone {
+            display: flex;
+            justify-content: center;
+      
+            .photo {
+              margin-right: 10rpx;
+            }
+          }
+      
+          .fixtwo {
+            display: flex;
+            justify-content: center;
+          }
+  
+          .fixthree {
+            display: flex;
+            justify-content: center;
+          }
+  
+          .photoinfo {
+            margin-top: 6rpx;
+            font-size: 28rpx;
+          }
+        }
+      }
+
+      .button{
+        background-color: #ebe3e3;
+        margin: 36rpx auto;
+        width: 690rpx;
+        height: 80rpx;
+      }
+
+      .nav {
+        margin-top: 20rpx;
+      }
+
+      .buttononClick {
+        background-color: #7fffd4;
+        margin: 36rpx auto;
+        width: 690rpx;
+        height: 80rpx;
+      }
+
+      .buttoninfo {
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        font-size: 28rpx;
+        height: 80rpx;
+      }
+
+      .trashback {
+        position: absolute;
+        right: 60rpx;
+        margin-right: 30rpx;
+        width: 150rpx;
+
+        .trashinfo {
+          margin-top: 6rpx;
+          font-size: 28rpx;
+        }
+      }
+    }
+  }
+}

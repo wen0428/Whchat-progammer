@@ -1,0 +1,71 @@
+.index {
+  .translation {
+    background-color: #f3f2f2;
+    min-height: 1162rpx;
+
+    .text {
+      background-color: #ffffff;
+      border: 1px #f3f2f2 solid;
+      margin-bottom: 20rpx;
+      height: 450rpx;
+    }
+
+    .cnen {
+      background-color: #ffffff;
+      margin: 30rpx auto;
+      width: 400rpx;
+      .cn {
+        display: flex;
+        justify-content: center;
+        margin-top: 8rpx;
+        font-size: 32rpx;
+      }
+  
+      .guideline {
+        border-radius: 50rpx;
+        background-color: #f3f2f2;
+        width: 100rpx;
+        height: 60rpx;
+
+        .guidelineone {
+          display: flex;
+          justify-content: center;
+          max-height: 10rpx;
+        }
+  
+        .guidelinetwo {
+          display: flex;
+          text-align: center;
+          justify-content: center;
+          max-height: 10rpx;
+        }
+      }
+  
+      .en {
+        margin-top: 8rpx;
+        font-size: 32rpx;
+      }
+    }
+
+    .start {
+      background-color:#ffffff;
+      height: 300rpx;
+
+      .value {
+        word-wrap:break-word; 
+        word-break:break-all;
+        margin: 0 auto;
+        width: 680rpx;
+      }
+    }
+
+    .end {
+      background-color: #ffffff;
+      height: 742rpx;
+    }
+
+    .volume {
+      margin-left: 30rpx;
+    }
+  }
+}

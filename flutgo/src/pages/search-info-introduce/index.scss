@@ -1,0 +1,48 @@
+.find {
+  margin: 0 auto;
+  width: 700rpx;
+
+  .detailtitleimage {
+    width: 700rpx;
+  }
+  
+  .sum {
+    margin: 0 auto;
+    width: 660rpx;
+
+    .detailtitle {
+      font-size: 40rpx;
+    }
+
+    .detailtitleinfo {
+      margin-bottom: 30rpx;
+      font-size: 26rpx;
+    }
+
+    .en {
+      margin-bottom: 30rpx;
+
+      .timeinfo {
+        white-space: pre-line;
+        font-size: 30rpx;
+      }
+    }
+
+    .at {
+      .adressinfo {
+        white-space: pre-line;
+        font-size: 30rpx;
+      }
+    }
+
+    .comeup{
+      font-size: 24rpx;
+      color: #7fffd4;
+      margin-left: 20rpx;
+    }
+
+    .introinfo {
+      font-size: 30rpx;
+    }
+  }
+}

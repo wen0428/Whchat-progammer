@@ -1,0 +1,73 @@
+.index {
+  .translation {
+    background-color: #f3f2f2;
+    min-height: 1190rpx;
+
+    .text {
+      background-color: #ffffff;
+      border: 1px #f3f2f2 solid;
+      margin-bottom: 20rpx;
+      height: 320rpx;
+
+      .cnen {
+        background-color: #ffffff;
+        font-size: 22rpx;
+        margin: 30rpx auto;
+        width: 150rpx;
+      }
+
+      .start {
+        font-size: 60rpx;
+        margin: 0 auto;
+        background-color: #ffffff;
+        width: 180rpx;
+      }
+    }
+
+    .end {
+      background-color: #ffffff;
+      height: 850rpx;
+
+      .endback {
+        margin: 0 auto;
+        width: 700rpx;
+
+        .volume {
+          padding-top: 30rpx;
+          margin-bottom: 30rpx;
+        }
+
+        .info {
+          margin-top: 30rpx;
+
+          .buytitle {
+            margin-top: 30rpx;
+            font-size: 22rpx;
+          }
+      
+          .buytitlemoney {
+            margin-top: 30rpx;
+            font-size: 30rpx;
+          }
+        }
+
+        .buyback {
+          background-color: #7fffd4;
+          width: 680rpx;
+          height: 80rpx;
+          left: 36rpx;
+          bottom: 0rpx;
+          position: fixed;
+  
+          .buy {
+            color: #ffffff;
+            position: relative;
+            left: 38%;
+            top: 20%;
+            font-size: 30rpx;
+          }
+        }
+      }
+    }
+  }
+}

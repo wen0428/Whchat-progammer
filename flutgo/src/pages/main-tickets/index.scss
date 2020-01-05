@@ -1,0 +1,141 @@
+.spacedesign {
+  .aboutback {
+    width: 100rpx;
+    position: relative;
+    top: 50rpx;
+    left: 80%;
+
+    .about {
+      font-size: 24rpx;
+      color: #d3d3d3;
+    }
+  }
+
+  .ground {
+    position: relative;
+    top: 280rpx;
+    margin: auto;
+    width: 660rpx;
+
+    .back {
+      border-radius: 10rpx;
+      background-color: #f3f2f2;
+      margin: auto;
+      width: 660rpx;
+      height: 240rpx;
+      margin-bottom: 30rpx;
+      position: relative;
+
+      .icon {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 80rpx;
+      }
+
+      .titleback {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 80rpx;
+        width: 400rpx;
+        height: 100rpx;
+  
+        .titleground {
+          width: 400rpx;
+  
+          .title {
+            font-size: 30rpx;
+          }
+      
+          .titleinfo {
+            font-size: 24rpx;
+          }
+        }
+      }
+    }
+    .bottoms {
+      border-radius: 0rpx 0rpx 10rpx 10rpx;
+      background-color: #000000;
+      position: relative;
+      top: -40rpx;
+      width: 660rpx;
+      height: 20rpx;
+    }
+  }
+
+  .bottom {
+    position: fixed;
+    bottom: 40rpx;
+    left: 10%;
+    width: 600rpx;
+
+    .bottomback {
+      .deepback{
+        margin: 0 auto;
+        width: 200rpx;
+
+        .Hback {
+          .deep {
+            font-size: 20rpx;
+            color: #807676;
+          }
+  
+          .light {
+            display: block;
+            font-size: 20rpx;
+            color: #d3d3d3;
+          }
+        }
+      }
+
+      .lightback {
+        text-align: center;
+
+        .light {
+          font-size: 24rpx;
+          color: #d3d3d3;
+        }
+      }
+
+      .lbback {
+        text-align: center;
+
+        .light {
+          font-size: 24rpx;
+          color: #d3d3d3;
+        }
+
+        .black {
+          font-size: 24rpx;
+        }
+      }
+
+      .deeperback {
+        text-align: center;
+
+        .deeper {
+          font-size: 24rpx;
+          color: #807676;
+        }
+      }
+
+      .lightwhim {
+        text-align: center;
+
+        .light {
+          font-size: 24rpx;
+          color: #d3d3d3;
+        }
+      }
+
+      .blackback {
+        text-align: center;
+
+        .black {
+          font-size: 24rpx;
+        }
+      }
+    }
+  }
+}

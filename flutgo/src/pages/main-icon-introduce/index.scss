@@ -1,0 +1,49 @@
+.index{
+  .test-h{
+    height: 500rpx;
+    
+    .small{
+      width: 750rpx;
+      min-height: 500rpx;
+    }
+  }
+  
+  .backgrounds {
+    margin: 0 auto;
+    margin-top: 30rpx;
+    width: 680rpx;
+
+    .en{
+      margin-bottom: 30rpx;
+      .title-en {
+        font-size: 30rpx;
+        white-space:pre-line;
+      }
+    }
+
+    .title{
+      font-size: 50rpx;
+      white-space:pre-line;
+    }
+
+    .adress {
+      margin-bottom: 30rpx;
+
+      .introduce{
+        font-size: 24rpx;
+        white-space:pre-line;
+      }
+  
+      .comeup{
+        font-size: 24rpx;
+        color: #7fffd4;
+        margin-left: 30rpx;
+      }
+    }
+
+    .content {
+      font-size: 30rpx;
+      white-space:pre-line;
+    }
+  }
+}

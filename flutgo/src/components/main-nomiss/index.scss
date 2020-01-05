@@ -1,0 +1,58 @@
+@import "~taro-ui/dist/style/components/flex.scss";
+
+.index {
+  .nomissback {
+    margin-left: 50rpx;
+    height: 90rpx;
+
+    .nomiss {
+      min-height: 40rpx;
+    }
+  }
+
+  .sumback {
+    margin-bottom: 20rpx;
+
+    .imageback {
+      width: 364rpx;
+      height: 360rpx;
+    }
+
+    .imagebackr {
+      width: 374rpx;
+      height: 360rpx;
+    }
+
+    .titleback {
+      margin-left: 40rpx;
+
+      .title {
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 300rpx;
+        font-size: 30rpx;
+      }
+
+      .t:after {
+        display: inline;
+        content: "...";
+        font-size: 30rpx;
+      }
+
+      .introduce {
+        font-size: 24rpx;
+        width: 300rpx;
+        display: -webkit-box;//必须结合的属性 ，将对象作为弹性伸缩盒子模型显示 。
+        line-height: 40rpx;
+        word-break: break-all;
+        -webkit-box-orient: vertical;//必须结合的属性 ，设置或检索伸缩盒对象的子元素的排列方式 。
+        -webkit-line-clamp:1;
+        overflow: hidden;
+        text-overflow:ellipsis;//可以用来多行文本的情况下，用省略号“…”隐藏超出范围的文本 
+        white-space: normal !important;
+      }
+    }
+  }
+}

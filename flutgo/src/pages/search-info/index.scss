@@ -1,0 +1,132 @@
+.index {  
+  .urlsinfo {
+    width: 750rpx;
+  }
+
+  .find {
+    margin: 0 auto;
+    margin-top: 30rpx;
+    margin-bottom: 60rpx;
+    width: 700rpx;
+
+    .other {
+      background-color: #faebd7;
+    }
+  
+    .flag {
+      background-color: #00ffff;
+    }
+  
+    .text {
+      background-color: #ffc0cb;
+    }
+  
+    .sum {
+      margin: 0 auto;
+      width: 660rpx;
+  
+      .details {
+        font-size: 40rpx;
+      }
+  
+      .detailsinfo {
+        font-size: 28rpx;
+      }
+  
+      .detailsline {
+        font-size: 30rpx;
+      }
+
+      .detailimage {
+        width: 100%;
+      }
+
+      .detailslineinfo {
+        font-size: 30rpx;
+      }
+  
+      .detailscycle {
+        font-size: 26rpx;
+      }
+  
+      .tabback {
+        background-color: #faf6f6;
+        border-radius: 50rpx;
+        margin-left: 10rpx;
+        margin-bottom: 30rpx;
+        width: 150rpx;
+        height: 50rpx;
+  
+        .detailscycle {
+          color: #7fffd4;
+          display: flex;
+          position: relative;
+          top:8rpx;
+          justify-content: center;
+          font-size: 26rpx;
+        }
+      }
+
+      .weui-cell-third{
+        background: #fff;
+      }
+
+       .weui-cell-list{
+        background: #fff;
+        margin: 0 auto;
+        width: 660rpx;
+      }
+
+       .weui-cell-line{
+       margin-left: 5px;
+        border-left: 1px solid #ddd;
+        width: 100%;
+        height: 100%;
+        background: #fff
+      }
+
+       .weui-cell-circle{
+        border: 0px solid #000;
+        position: relative;
+        top: 60rpx;
+        right: 16rpx;
+        border-radius: 5px;
+        width: 0px;
+        height: 10%;
+      }
+
+      .weui-cell-circleone{
+        border: 0px solid #000;
+        position: relative;
+        bottom: 46rpx;
+        right: 10rpx;
+        border-radius: 5px;
+        width: 0px;
+        height: 10%;
+      }
+
+       .weui-cell-time{
+        float: left;
+        font-size:14px;
+        padding-left: 15px;
+        width: 72px;
+      }
+
+       .weui-cell-event{
+        padding-top: 15px;
+        padding-left: 15px;
+      }
+
+      .eventback {
+        margin-left: 20rpx;
+        width: 620rpx;
+      }
+      
+       .weui-cell-name{
+       font-size:14px;
+       height:23px;
+       margin-left: 100px;
+      }
+    }
+  }
+}

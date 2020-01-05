@@ -1,0 +1,38 @@
+.index {
+  .note-backend {
+    background:white;
+    margin-left: 40rpx;
+    margin-top: 40rpx;
+    height: 260rpx;
+
+    .notes-image {
+      border-radius: 10rpx;
+      width: 660rpx;
+      max-height: 240rpx;
+
+      .notes-label {
+        z-index: 999;
+        background: linear-gradient(to right, rgba(255,255,255,255) 0%,rgba(255,255,255,0) 100%); 
+        position: relative;
+        top: -238rpx;
+        margin: 0 auto;
+        height: 100%;
+
+        .notes-labels {
+          margin-left: 50rpx;
+          position: relative;
+          top: 80rpx;
+
+          .note-label {
+            font-size: 26rpx;
+          }
+
+          .content {
+            display: block;
+            font-size: 20rpx;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+.index {
+  .titleimage {
+    width: 750rpx;
+    height: 340rpx;
+  }
+
+  .textback {
+    margin: 0 auto;
+    width: 660rpx;
+    margin-top: 30rpx;
+
+    .bg-white{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      background-color: white;
+    }
+
+    .vertical {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .pay-hint-content{
+      margin-top: 10px;
+      font-size: 30px;
+      color: #888;
+      display: -webkit-box;
+      text-overflow: ellipsis;
+      -webkit-box-orient:vertical;
+      overflow:hidden;
+    }
+    
+    .ellipsis_text{
+      width: 100%;
+      font: 30px;
+      text-align: center
+    }
+
+    .title {
+      font-size: 40rpx;
+    }
+
+    .titleinfoback {
+      background-color: #f8f6f6;
+      margin-top: 30rpx;
+      margin-bottom: 30rpx;
+      
+      .titleinfo {
+        font-size: 24rpx;
+      }
+    }
+
+    /* 修改列数 5行 */
+    .ellipsis {
+      display: -webkit-box;
+      -webkit-box-orient:vertical;
+      text-overflow: ellipsis;
+      overflow:hidden;
+      -webkit-line-clamp: 5;
+      font-size: 30rpx;
+    }
+    /* 展示全部 */
+    .unellipsis {
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    text-overflow: ellipsis;
+    overflow:hidden;
+    -webkit-line-clamp: 0;
+    font-size: 30rpx;
+    }
+
+    .showhidden {
+      width: 100rpx;
+      margin: 70rpx auto;
+      color: #888888; 
+      font-size: 20rpx;
+    }
+  }
+}

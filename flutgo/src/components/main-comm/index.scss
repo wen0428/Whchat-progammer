@@ -1,0 +1,39 @@
+.index {
+  .bartitleback {
+    margin-left: 50rpx;
+    height: 90rpx;
+
+    .bartitle {
+      min-height: 40rpx;
+    }
+  }
+
+  .test-h {
+    height: 480rpx;
+
+    .back {
+      .titleimage {
+        width: 750rpx;
+        height: 340rpx;
+      }
+
+      .textback {
+        margin: 0 auto;
+        width: 660rpx;
+
+        .title {
+          font-size: 28rpx;
+        }
+
+        .titleinfo {
+          font-size: 24rpx;
+          overflow: hidden;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 1;
+          color: #c4b9b9;
+        }
+      }
+    }
+  }
+}
