@@ -52,7 +52,7 @@
     "babel-plugin-transform-es2015-sticky-regex": "^6.24.1",
     "babel-plugin-transform-es2015-unicode-regex": "^6.24.1",
     "brace-expansion": "^1.1.11",
-    "browserslist": "^4.5.2",
+    "browserslist": "^4.16.5",
     "escape-string-regexp": "^1.0.5",
     "globals": "^11.11.0",
     "has-ansi": "^3.0.0",
