@@ -31,7 +31,7 @@
     "@tarojs/taro-swan": "1.2.21",
     "@tarojs/taro-tt": "1.2.21",
     "@tarojs/taro-weapp": "1.2.21",
-    "ansi-regex": "^4.1.0",
+    "ansi-regex": "^6.0.1",
     "babel-helper-builder-binary-assignment-operator-visitor": "^6.24.1",
     "babel-helper-call-delegate": "^6.24.1",
     "babel-helper-function-name": "^6.24.1",
